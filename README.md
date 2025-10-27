@@ -91,8 +91,8 @@ Terminal B → to check and kill zombies (zombie_disk.sh)
 In Terminal A, run:
 ```
 ./zombie_test.py 10
-(This will create a zombie process (a defunct child process)
 ```
+(This will create a zombie process (a defunct child process)
 
 
 
@@ -158,8 +158,9 @@ pip install psutil
 4. Run
 ```
 python JSON_CSV_logger.py
-Press Ctrl+C to stop.
 ```
+Press Ctrl+C to stop
+
 
 Output:
 ```
