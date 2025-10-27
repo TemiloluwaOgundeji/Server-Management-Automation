@@ -175,7 +175,7 @@ system_metrics.csv - CPU, memory, disk metrics
 
 
 
-# Email + Slack Alert Script
+# Email $ Slack Alert Script
 sends alerts to both Email and Slack when a system check fails.
 
 
