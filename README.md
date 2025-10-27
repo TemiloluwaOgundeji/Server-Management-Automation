@@ -92,7 +92,7 @@ In Terminal A, run:
 ```
 ./zombie_test.py 10
 ```
-(This will create a zombie process (a defunct child process)
+(This will create a zombie process)
 
 
 
@@ -147,7 +147,7 @@ python -m venv venv
 
 2. Activate environment
 ```
-source venv/bin/activate  # Mac/Linux
+source venv/bin/activate  
 ```
 
 3. Install dependencies
