@@ -358,7 +358,7 @@ def main():
         'recipient_email': 'togundeji50@gmail.com',
         
         # Webhook config
-        'webhook_url': '',  
+        'webhook_url': 'https://hooks.slack.com/services/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qSGc',  
         
         # Services to monitor (name: port)
         'services': {
