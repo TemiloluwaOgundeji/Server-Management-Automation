@@ -1,0 +1,6 @@
+{"timestamp": "2025-10-27T19:09:10.322240", "type": "system", "message": "Automation suite started", "metadata": {}}
+{"timestamp": "2025-10-27T19:09:44.354494", "type": "anomaly", "message": "cpu spike", "metadata": {"metric": "cpu", "value": 25.8, "baseline": 10.662, "increase": "142.0%"}}
+{"timestamp": "2025-10-27T19:10:06.371788", "type": "anomaly", "message": "cpu spike", "metadata": {"metric": "cpu", "value": 29.8, "baseline": 12.38822, "increase": "140.6%"}}
+{"timestamp": "2025-10-27T19:10:17.379773", "type": "anomaly", "message": "cpu spike", "metadata": {"metric": "cpu", "value": 29.8, "baseline": 14.129398000000002, "increase": "110.9%"}}
+{"timestamp": "2025-10-27T19:11:56.436039", "type": "anomaly", "message": "cpu spike", "metadata": {"metric": "cpu", "value": 18.9, "baseline": 11.857653403235627, "increase": "59.4%"}}
+{"timestamp": "2025-10-27T19:12:23.181584", "type": "system", "message": "Automation suite stopped", "metadata": {}}
