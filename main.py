@@ -292,7 +292,7 @@ class ServerAutomationSuite:
         # Detect anomalies
         anomalies = self.monitor.detect_anomalies(metrics)
         if anomalies:
-            print(f"  ⚠️  Anomalies detected: {len(anomalies)}")
+            print(f"  Anomalies detected: {len(anomalies)}")
             for a in anomalies:
                 self.logger.log_event('anomaly', f"{a['metric']} spike", a)
         
@@ -302,14 +302,14 @@ class ServerAutomationSuite:
         # Auto-remediate
         actions = self.monitor.remediate(metrics)
         if actions:
-            print(f"  🔧 Remediation: {', '.join(actions)}")
+            print(f"  Remediation: {', '.join(actions)}")
         
         # Check and restart services
         for service, port in self.services.items():
             if not self.monitor.check_service_health(service, port):
-                print(f"  ✗ {service} is down - restarting...")
+                print(f"  {service} is down - restarting...")
                 if self.monitor.restart_service(service):
-                    print(f"  ✓ {service} restarted")
+                    print(f"  {service} restarted")
         
         # Alert on critical issues
         if metrics['cpu'] > 90:
