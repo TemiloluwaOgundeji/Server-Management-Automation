@@ -26,7 +26,7 @@ awk
 
 Installation
 1. Clone or copy this project
-2. Make the script executable: chmod +x monitor.sh
+2. Make the script executable: '''chmod +x monitor.sh'''
 3. Run it: ./monitor.sh
 
    
