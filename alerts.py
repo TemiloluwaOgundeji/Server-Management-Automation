@@ -17,7 +17,7 @@ SMTP_PASS = os.getenv("SMTP_PASS", "raoo rjhr cbjp ngjy")
 EMAIL_FROM = os.getenv("EMAIL_FROM", "zinaanjolaiya@gmail.com")
 EMAIL_TO = os.getenv("EMAIL_TO", "togundeji50@gmail.com").split(",")
 
-SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL", "https://hooks.slack.com/services/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")
+SLACK_WEBHOOK_URL = os.getenv("SLACK_WEBHOOK_URL", "https://hooks.slack.com/services/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qSGc")
 
 
 # ALERT FUNCTIONS
