@@ -1,4 +1,4 @@
-# Server-Management-Automation
+
 
 What it does: A production-ready bash script that monitors server health, auto-remediates common issues, and maintains detailed logs
 Includes:
@@ -11,7 +11,7 @@ Service health checks with auto-restart capabilities
 Performance trending over time
 
 
-Server Health Monitor:
+# Server Health Monitor:
 Logs all reports with timestamps
 Alerts if CPU, memory, or disk usage exceed set limits
 Shows uptime, process count, and load averages
@@ -51,7 +51,7 @@ Monitor-20251027-114552.log
 
 
 
-Zombie Process Test & Killer (macOS / Linux)
+# Zombie Process Test & Killer (macOS / Linux)
 Creates, detects, and removes zombie processes safely on your local machine.
 
 zombie_test.py: Python script that creates a temporary zombie process for testing.
@@ -108,18 +108,19 @@ ps -eo pid,ppid,stat,comm | awk '$3 ~ /Z/ {print $0}'
 
 
 
-Combined Logging System: Logs application events as JSON and system metrics as CSV.
+# Combined Logging System
+Logs application events as JSON and system metrics as CSV.
 
-# Create virtual environment
+1. Create virtual environment
 python -m venv venv
 
-# Activate environment
+2. Activate environment
 source venv/bin/activate  # Mac/Linux
 
-# Install dependencies
+3. Install dependencies
 pip install psutil
 
-# Run
+4. Run
 python JSON_CSV_logger.py
 Press Ctrl+C to stop.
 
@@ -135,7 +136,8 @@ system_metrics.csv - CPU, memory, disk metrics
 
 
 
-Email + Slack Alert Script: sends alerts to both Email and Slack when a system check fails.
+# Email + Slack Alert Script
+sends alerts to both Email and Slack when a system check fails.
 
 
 Setup:
