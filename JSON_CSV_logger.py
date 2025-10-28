@@ -94,7 +94,7 @@ def main():
             if metrics['cpu'] > 80:
                 json_log.log_monitoring('cpu', 'critical', metrics['cpu'])
                 json_log.log_remediation('high_cpu', 'alert_sent', True)
-                print("  ⚠️  High CPU detected - logged remediation")
+                print("High CPU detected - logged remediation")
             else:
                 json_log.log_monitoring('system', 'healthy', metrics['cpu'])
             
